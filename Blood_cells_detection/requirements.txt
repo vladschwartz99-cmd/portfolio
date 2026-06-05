@@ -1,0 +1,10 @@
+torch
+torchmetrics
+pandas
+numpy
+opencv-python
+albumentations
+matplotlib
+tqdm
+
+torchvision
