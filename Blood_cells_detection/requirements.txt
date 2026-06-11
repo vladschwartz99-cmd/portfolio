@@ -1,10 +1,9 @@
-torch
-torchmetrics
 pandas
 numpy
 opencv-python
 albumentations
 matplotlib
 tqdm
-
+torch
+torchmetrics
 torchvision
