@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+
+# Виртуальное окружение
+venv/
+.venv/
+
+# PyCharm
+.idea/
+
+# Данные
+BCCD_dataset-1.0/
+*.jpg
+*.xml
+
+# Веса моделей
+models/
+*.pth
+
+# Отчёты
+reports/
+*png
+
+# Логи
+*.log
