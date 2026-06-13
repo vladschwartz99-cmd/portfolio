@@ -86,12 +86,12 @@
 
 1. Клонируйте репозиторий:
    ```bash
-   git clone https://github.com/vladschwartz99-cmd/-portfolio/tree/main/Blood_cells_detection
+   git clone https://github.com/vladschwartz99-cmd/-portfolio.git
    ```
    
 2. Перейдите в директорию проекта:
    ```bash
-   cd -portfolio/Blood_cells_detection
+   cd .\-portfolio/Blood_cells_detection
    ```
    
 3. Установите зависимости:
