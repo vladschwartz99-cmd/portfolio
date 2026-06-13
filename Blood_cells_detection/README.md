@@ -86,12 +86,12 @@
 
 1. Клонируйте репозиторий:
    ```bash
-   git clone https://github.com/vladschwartz99-cmd/-portfolio.git
+   git clone https://github.com/vladschwartz99-cmd/portfolio.git
    ```
    
 2. Перейдите в директорию проекта:
    ```bash
-   cd .\-portfolio/Blood_cells_detection
+   cd portfolio/Blood_cells_detection
    ```
    
 3. Установите зависимости:
@@ -99,12 +99,18 @@
    pip install -r requirements.txt
    ```
    
-4. Скачайте датасет:
+4. Скачайте датасет (размещенный в публичном доступе на Kaggle):
    ```bash
-   gdown --folder 13jYoNgJOWg4Eqh0kSA2eFAtdZ7He4bSD
-   ``` 
+   pip install kaggle
+   kaggle datasets download -d konstantinazov/bccd-dataset
+   ```
 
-5. Запустите проект:
+5. Разархивируйте данные в корне проекта:
+   ```bash
+   python -c "import zipfile; zipfile.ZipFile('bccd-dataset.zip').extractall('BCCD_dataset')"
+   ```
+
+7. Запустите проект:
    ```bash
    python data_preparation.py
    python train.py    # (модели тренируются ~ 5 часов на RTX 4050)
