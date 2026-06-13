@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+
+# Виртуальное окружение
+venv/
+.venv/
+
+# PyCharm
+.idea/
+
+# Данные
+anime_dataset/
+
+# Отчёты
+results/
+
+# Логи
+*.log
