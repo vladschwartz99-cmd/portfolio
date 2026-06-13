@@ -74,7 +74,7 @@
 
 1. Клонируйте репозиторий:
    ```bash
-   git clone https://github.com/vladschwartz99-cmd/-portfolio/tree/main/Recomendation_systems
+   git clone https://github.com/vladschwartz99-cmd/-portfolio/tree/main/recommendation_systems
    ```
    
 2. Перейдите в директорию проекта:
