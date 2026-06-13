@@ -74,12 +74,12 @@
 
 1. Клонируйте репозиторий:
    ```bash
-   git clone https://github.com/vladschwartz99-cmd/-portfolio/tree/main/recommendation_systems
+   git clone https://github.com/vladschwartz99-cmd/portfolio.git
    ```
    
 2. Перейдите в директорию проекта:
    ```bash
-   cd -portfolio/recommendation_systems
+   cd portfolio/recommendation_systems
    ```
    
 3. Установите зависимости:
@@ -87,12 +87,24 @@
    pip install -r requirements.txt
    ```
    
-4. Скачайте датасет:
+4. Скачайте датасет (размещенный в публичном доступе на kaggle):
    ```bash
-   gdown --folder 12_1MzCYCwit4KO-5yaVYcYIHPimMD1Ex
+   pip install kaggle
+   kaggle datasets download -d CooperUnion/anime-recommendations-database
    ```
 
-5. Запустите проект:
+5. Разархивируйте данные в корень проекта:
+   ```bash
+   python -c "import zipfile; zipfile.ZipFile('anime-recommendations-database.zip').extractall('anime_dataset')"
+   ```
+
+6. Настройте окружение:
+   ```bash
+   pip install jupyter nbconvert ipykernel
+   python -m ipykernel install --user --name recommender --display-name "Python (recommender)"
+   ```
+
+7. Запустите ноутбуки:
    ```bash
    jupyter nbconvert --execute --inplace EDA.ipynb
    jupyter nbconvert --execute --inplace evaluate.ipynb    # (метрики считаются ~ 3 часа на 16 GB RAM)
