@@ -1,5 +1,4 @@
 kaggle
-gdown
 pandas
 numpy
 matplotlib
