@@ -1,4 +1,4 @@
-kaggle
+nbconvert
 pandas
 numpy
 matplotlib
