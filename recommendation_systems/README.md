@@ -79,7 +79,7 @@
    
 2. Перейдите в директорию проекта:
    ```bash
-   cd -portfolio/Recomendation_systems
+   cd -portfolio/recommendation_systems
    ```
    
 3. Установите зависимости:
