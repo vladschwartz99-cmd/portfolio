@@ -1,0 +1,11 @@
+tqdm
+datasets
+pandas
+numpy
+requests
+torch
+langchain-text-splitters
+sentence-transformers
+faiss-cpu
+ollama
+streamlit
