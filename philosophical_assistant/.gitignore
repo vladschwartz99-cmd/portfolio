@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+
+# Виртуальное окружение
+venv/
+.venv/
+
+# PyCharm
+.idea/
+
+# Загруженные данные
+data/raw/
+
+# Обработанные данные
+data/processed/
+
+# FAISS индекс
+*.index
+
+#  Эмбеддинги
+*.npy
+
+# Файлы parquet
+*.parquet
+
+# Логи Ollama
+ollama.log
+
+# Логи
+*.log
