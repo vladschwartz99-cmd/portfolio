@@ -61,7 +61,7 @@ def split_data(paths_df):
 
 
 
-class LoadMRImage(Dataset):
+class LoadCTImage(Dataset):
     """Класс, автоматически загружающий изображения и добавляющий к ним метку класса"""
 
     def __init__(self, images_paths, transforms_type):
@@ -91,9 +91,9 @@ class LoadMRImage(Dataset):
 def get_datasets(train_paths, val_paths, test_paths):
     """Функция создания объектов DataLoader для всех подвыборок"""
 
-    train_dataset = LoadMRImage(train_paths, train_transforms)
-    val_dataset = LoadMRImage(val_paths, test_transforms)
-    test_dataset = LoadMRImage(test_paths, test_transforms)
+    train_dataset = LoadCTImage(train_paths, train_transforms)
+    val_dataset = LoadCTImage(val_paths, test_transforms)
+    test_dataset = LoadCTImage(test_paths, test_transforms)
 
     return train_dataset, val_dataset, test_dataset
 
