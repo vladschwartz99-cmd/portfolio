@@ -110,7 +110,7 @@
    python -c "import zipfile; zipfile.ZipFile('bccd-dataset.zip').extractall('BCCD_dataset')"
    ```
 
-7. Запустите проект:
+6. Запустите проект:
    ```bash
    python data_preparation.py
    python train.py    # (модели тренируются ~ 5 часов на RTX 4050)
