@@ -1,0 +1,15 @@
+kagglehub
+numpy
+pandas
+IPython
+IProgress
+opencv-python
+scikit-learn
+albumentations
+matplotlib
+tqdm
+torch
+torchvision
+grad-cam
+pytorch_lightning
+opencv-python
