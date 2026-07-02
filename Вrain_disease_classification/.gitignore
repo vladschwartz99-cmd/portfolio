@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# PyCharm
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Логи
+*.log
+
+# Kaggle
+kaggle.json
+
+# Датасет
+data/
+dataset/
+datasets/
+
+# Веса моделей
+*.pth
+*.pt
+*.ckpt
