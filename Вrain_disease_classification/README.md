@@ -51,7 +51,7 @@
 
 Датасет распространяется под лицензией **MIT License**. 
 
-* **Оригинальный репозиторий датасета**: [BCCD_Dataset](https://www.kaggle.com/datasets/shuvokumarbasakbd/brain-ct-medical-imaging-colorized-dataset)
+* **Оригинальный репозиторий датасета**: [Brain CT Medical Imaging Colorized Dataset](https://www.kaggle.com/datasets/shuvokumarbasakbd/brain-ct-medical-imaging-colorized-dataset)
 * **Условия использования**: Разрешается копирование, изменение и распространение данных 
 при условии указания авторства оригинального разработчика. Соответствующий файл лицензии 
 сохранен в корне проекта.
