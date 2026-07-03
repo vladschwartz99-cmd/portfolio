@@ -73,7 +73,7 @@
    
 2. Перейдите в директорию проекта:
    ```bash
-   cd portfolio/Brain_diseases_classification
+   cd portfolio/Brain_disease_classification
    ```
    
 3. Установите зависимости:
