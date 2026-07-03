@@ -80,20 +80,14 @@
    ```bash
    pip install -r requirements.txt
    ```
-   
-4. Скачайте датасет (размещенный в публичном доступе на Kaggle):
-   ```bash
-   pip install kaggle
-   kaggle datasets download -d konstantinazov/bccd-dataset
-   ```
 
-5. Организация окружения:
+4. Организация окружения:
    ```bash
     pip install jupyter nbconvert ipykernel
     python -m ipykernel install --user --name recommender --display-name "Python (recommender)"
    ```
 
-6. Запустите ноутбук:
+5. Запустите ноутбук:
    ```bash
    jupyter nbconvert --execute --inplace EDA.ipynb
    ```
