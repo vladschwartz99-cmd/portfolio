@@ -84,7 +84,7 @@
 4. Организация окружения:
    ```bash
     pip install jupyter nbconvert ipykernel
-    python -m ipykernel install --user --name recommender --display-name "Python (recommender)"
+    python -m ipykernel install --user --name recommender --display-name "Python (classification)"
    ```
 
 5. Запустите ноутбук:
