@@ -89,7 +89,7 @@
 
 5. Запустите ноутбук:
    ```bash
-   jupyter nbconvert --execute --inplace EDA.ipynb
+   jupyter nbconvert --execute --inplace CT_classification.ipynb
    ```
 
 ---
